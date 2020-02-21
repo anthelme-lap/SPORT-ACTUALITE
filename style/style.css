@@ -7,13 +7,36 @@
 /*HEARDER*/
 
 header{
-    padding: 20px 10px 10px 40px;
+    padding: 10px 30px 0px 40px;
     background-color:gray;
-    width: 100%;
     height: 64px;
 }
 .logo
 {
-    color: orangered;
+    font-style: italic;
+    color: rgb(228, 228, 192);
     font-weight: bold;
+    font-size: 20px;
+    float: left;
+    cursor: pointer;
+    margin-right: 70px;
+}
+.recherche
+{
+    border: 1px solid black;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    right: 150px;
+}
+nav {
+    border: 1px solid black;
+    width: 50%;
+    margin-top: 15px;
+}
+nav a
+{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 28px;
 }
